@@ -12,6 +12,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        Toast.makeText(this, "gfhfddfgbrfdgbv", Toast.LENGTH_SHORT).show()
+
         var rollbutton: Button = findViewById(R.id.button)
 
 
