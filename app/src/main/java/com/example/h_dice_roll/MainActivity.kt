@@ -2,6 +2,7 @@ package com.example.h_dice_roll
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
@@ -23,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun rollDice() {
+        Log.e("fesdfvs","dvdxv")
         val dice = Dice(6)
         val diceRoll = dice.roll()
         val diceImage:ImageView=findViewById(R.id.iv)
